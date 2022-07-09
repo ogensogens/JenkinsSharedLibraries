@@ -15,5 +15,5 @@ def call(String mavenObj){
    else if ("${mavenObj}" == "Package")
       {
         sh "mvn clean package"
-     }
+      }
 }
